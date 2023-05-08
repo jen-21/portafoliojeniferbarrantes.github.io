@@ -1,0 +1,55 @@
+.principal{
+    background-color: rgb(138, 89, 184);
+    background-image: url(../img/flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+.contenido-principal{
+    background-color: #0f0f0fb3;
+    height: 200vh;
+}
+#informacion{
+    margin-top: 90px;
+    justify-content: center;
+    border-radius: 50%;
+    border-color: black;
+
+}
+.informacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 500px 500px;
+    border-radius: 50%;
+    border-color: black;
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 250px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 150px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#imagen{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.imagen{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px 100px 100px;
+
+}
+#img{
+    width: 50px;
+    margin-left: 20px;
+}

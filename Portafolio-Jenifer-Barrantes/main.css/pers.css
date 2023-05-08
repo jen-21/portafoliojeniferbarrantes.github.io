@@ -1,0 +1,40 @@
+.principal{
+    background-color: rgb(138, 89, 184);
+    background-image: url(../img/flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+.contenido-principal{
+    background-color: #0f0f0fb3;
+    height: 100vh;
+    
+}
+
+h1{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+}
+h2{
+    
+    color: white;
+}
+#img{
+    width: 50px;
+    margin-left: 20px;
+}
+#imagen{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.imagen{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px 100px 100px;
+
+}

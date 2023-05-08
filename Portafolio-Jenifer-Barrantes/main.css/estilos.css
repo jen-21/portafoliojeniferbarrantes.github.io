@@ -1,0 +1,95 @@
+.principal{
+    background-color: rgb(81, 45, 115);
+    background-image: url(../img/flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+.contenido-principal{
+    background-color: #0f0f0fb3;
+    height: 200vh;
+    margin: 0;
+    
+}
+
+#personal{
+    background-color:rgb(52, 2, 94);
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+
+}
+#portafolio{
+    background-color:rgb(52, 2, 94);
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+}
+
+#texto-bienvenida{
+    margin-left: 450px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#texto-h2{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+#perfil{
+    margin-left: 550px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+#texto-mi{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+#foto{
+    width: 150px;
+}
+#boton1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.boton1{
+    display: grid;
+    
+}
+#boton2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.boton2{
+    display: grid;
+    
+}
+
+h2{
+    color: blueviolet;
+}
+#contacto{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contacto{
+    display: grid;
+}
+.img{
+    width: 50px;
+    margin-left: 20px;
+}
